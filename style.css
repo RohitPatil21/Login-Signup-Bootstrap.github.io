@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/74/49/F7dPYn.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.logo{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+#icon{
+    font-size: 5rem;
+    float: left;
+    color: rgb(255, 238, 0);
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: -1rem;
+}
+
+#name{
+    margin-top: 2rem;
+    /* font-family: 'Satisfy', cursive; */
+    color: #ffff;
+    font-weight: 700;
+}
+
+/* Login Panel  */
+.wrapper{
+    height: 70vh;
+    width: 80vw;
+    /* background-color: red; */
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mainRow{
+    background-color: blue;
+    height: 100%;
+}
+
+.loginCol{
+    position: relative;
+}
+
+.loginCol h1{
+    font-weight: 700;
+    color: #004042;
+}
+
+/* UserName  */
+.username{
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid grey;
+}
+
+.username input{
+    width: 90%;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    /* background-color: transparent; */
+}
+
+.signup{
+    position:absolute ;
+    bottom: 0;
+    width: 100%;
+}
+
+.forgetPass{
+    cursor: pointer;
+}
+
+
+.signup p{
+    cursor: pointer;
+}
